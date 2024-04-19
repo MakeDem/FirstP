@@ -6,8 +6,8 @@ public class FirstScript8 : MonoBehaviour
 
     //bool playing = true;
     //bool gameOver = true;
-    public bool gameOver;
-    //public bool killPlayer;
+    //public bool gameOver;
+    public bool killPlayer;
 
     
     // Use this for initialization
@@ -24,7 +24,7 @@ public class FirstScript8 : MonoBehaviour
 
         //if(gameOver){
 
-            print("GameOver");
+        //    print("GameOver");
         //}
         
 
@@ -44,12 +44,12 @@ public class FirstScript8 : MonoBehaviour
     //Update is called once per frame
     void Update () {
 
-        //if(killPlayer){
+        if(killPlayer){
 
             //Destroy(gameObject);
-           // Destroy(gameObject,2f);
+            Destroy(gameObject,2f);
 
-        //}
+        }
 
     }
 
